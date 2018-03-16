@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="Theme.Base" parent="AppTheme">
+        <item name="colorPrimary">@color/profilePrimaryBackground</item>
+        <item name="colorPrimaryDark">@color/profileSecondaryBackground</item>
+        <item name="colorAccent">@color/profileColorBackgroundAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/profileBackgroundColor</item>
+    </style>
+
+    <style name="Theme.Profile" parent="Theme.Base" />
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/profilePrimaryTextColor</item>
+        <item name="colorControlHighlight">@color/championBackgroundColor</item>
+        <item name="android:actionMenuTextColor">@color/profilePrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/profileSecondaryTextColor</item>
+        <item name="android:background">@color/profilePrimaryBackground</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/profilePrimaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

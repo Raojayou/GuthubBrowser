@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="profilePrimaryBackground">@color/md_teal_A200</color>
+    <color name="profileSecondaryBackground">@color/md_teal_A400</color>
+    <color name="profileColorBackgroundAccent">@color/md_cyan_900</color>
+    <color name="profileBackgroundColor">@color/md_blue_grey_600</color>
+    <color name="profilePrimaryTextColor">@color/md_amber_900</color>
+    <color name="profileSecondaryTextColor">@color/md_amber_500</color>
+    <color name="profileBackgroundSplash">@color/md_black_1000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
